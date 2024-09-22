@@ -1,5 +1,6 @@
 import '../Header/Header.css';
 import logo from '../../assets/imgs/logo-provisoria.png';
+import NavList from '../NavList/NavList';
 
 const Header = () => {
     return (
@@ -8,11 +9,7 @@ const Header = () => {
                 <img src={logo} alt='Logo Jornada' />
             </figure>
             <nav className='header__nav'>
-                <ul className='header__ul'>
-                    <li className='header__ul--li'><a href='#'>Blog</a></li>
-                    <li className='header__ul--li'><a href='#'>Pacotes de viagem</a></li>
-                    <li className='header__ul--li'><a href='#'>Contato</a></li>
-                </ul>
+                <NavList />
             </nav>
         </header>
     )
