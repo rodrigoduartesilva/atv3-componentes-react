@@ -5,7 +5,7 @@ const NavList = () => {
         <ul className='header__ul'>
             <li className='header__ul--li'><a href='#'>Blog</a></li>
             <li className='header__ul--li'><a href='#'>Pacotes de viagem</a></li>
-            <li className='header__ul--li'><a href='#'>Contato</a></li>
+            <li className='header__ul--li'><a href='#contact'>Contato</a></li>
         </ul>
     )
 }
