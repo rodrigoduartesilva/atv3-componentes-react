@@ -17,9 +17,9 @@ const Footer = () => {
             <section className='footer__right'>
                 <p className='footer__right--paragraph'>Acesse nossas redes:</p>
                 <div className='footer__right__iconList'>
-                    <figure><a href='https://web.whatsapp.com/'><img className='footer__right__iconList--icon' src={whatsappIcon} alt='Icone do Whatsapp' /></a></figure>
-                    <figure><a href='https://instagram.com/'><img className='footer__right__iconList--icon' src={instagramIcon} alt='Icone do Instagram' /></a></figure>
-                    <figure><a href='https://twitter.com'><img className='footer__right__iconList--icon' src={twitterIcon} alt='Icone do Twitter' /></a></figure>
+                    <figure><a href='https://web.whatsapp.com/' target='_blank'><img className='footer__right__iconList--icon' src={whatsappIcon} alt='Icone do Whatsapp' /></a></figure>
+                    <figure><a href='https://instagram.com/' target='_blank'><img className='footer__right__iconList--icon' src={instagramIcon} alt='Icone do Instagram' /></a></figure>
+                    <figure><a href='https://twitter.com' target='_blank'><img className='footer__right__iconList--icon' src={twitterIcon} alt='Icone do Twitter' /></a></figure>
                 </div>
             </section>
         </footer>
