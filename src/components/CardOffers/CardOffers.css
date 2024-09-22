@@ -20,32 +20,3 @@
     align-items: center;
     justify-content: center;
 }
-
-.CardOffers__List--item {
-    width: 500px;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 24px;
-    border-radius: 16px;
-    color: #FFFFFF;
-    padding: 24px 0px;
-}
-
-.CardOffers__List--paragraph {
-    font-size: 1.25rem;
-    margin-bottom: 8px;
-}
-
-.CardOffers__List--subtittle {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.CardOffers__List--price {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin: 16px 0px;
-}
