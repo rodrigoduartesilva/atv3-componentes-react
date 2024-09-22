@@ -1,0 +1,22 @@
+button {
+    all: unset;
+    width: 240px;
+    height: 60px;
+    background-color: #B81515;
+    border: 1px solid #B81515;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+
+    transition: 1.5s all;
+
+    &:hover {
+        background-color: #8a2121;
+        border: 1px solid #B81515;
+        color: #F5F5F5;
+        cursor: pointer;
+        transition: 1s all;
+    }
+}
