@@ -1,8 +1,11 @@
 import '../Button/Button.css';
 
-const Button = ({ type, children }) => {
+const Button = ({ type, children, onClick }) => {
     return (
-        <button type={type}>{children}</button>
+        <button type={type} onClick={(event) => {
+            event.preventDefault();
+            onClick();
+        }}>{children}</button>
     )
 }
 

@@ -1,0 +1,37 @@
+.category__container--icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.category__container--icons li {
+    width: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s all;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        color: #B81515;
+    }
+}
+
+.category__container--icons li figure{
+    height: 105px;
+}
+
+.category__container--icons li img{
+    margin-bottom: 30px;
+}
+
+.category__container--icons li p{
+    width: 249px;
+    height: 68px;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+}

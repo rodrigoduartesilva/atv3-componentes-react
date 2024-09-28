@@ -10,8 +10,7 @@
 .container__underlined{
     width: 180px;
     border: 2px solid #B81515;
-    margin-top: 16px;
-    
+    margin: 16px auto 64px auto;
 }
 
 .CardOffers__List {

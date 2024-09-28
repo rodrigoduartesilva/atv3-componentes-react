@@ -7,7 +7,7 @@ const Card = ({ card }) => {
             <p className='CardOffers__List--paragraph'>{card.incluso}</p>
             <h3 className='CardOffers__List--subtittle'>{card.destino}</h3>
             <p className='CardOffers__List--price'>R$ {card.preco.toFixed(2)}</p>
-            <Button>Ver detalhes</Button>
+            <Button type={'button'}>Ver detalhes</Button>
         </li>
     )
 }
