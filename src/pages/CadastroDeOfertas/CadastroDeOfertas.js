@@ -1,15 +1,20 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from '../../components/Button/Button';
 import ContactFormInput from '../../components/ContactFormInput/ContactFormInput';
 import '../CadastroDeOfertas/CadastroDeOfertas.css';
+import { promoCards } from '../../funcoes/promoCards';
 
 const CadastroDeOfertas = ({ onAddPromo }) => {
     const [newPromo, setNewPromo] = useState({
         incluso: '',
         destino: '',
         preco: '',
-        background: null // Mude para null
+        background: ''
     });
+
+    useEffect(() => {
+        getOffers();
+    }, []);
 
     const handleFieldsChange = (event) => {
         const { id, value, type } = event.target;
@@ -19,20 +24,41 @@ const CadastroDeOfertas = ({ onAddPromo }) => {
         }));
     }
 
-    const handleClick = () => {
+    const handleClick = async () => {
+        const response = await fetch('http://localhost:3005/promoCards', {
+            method: 'POST',
+            headers: new Headers({
+                "Content-type": "application/json"
+            }),
+            body: JSON.stringify(promoCards)
+        });
+
+        const data = await response.json();
+        alert('Cadastrado com sucesso', data);
+
+        getOffers();
+
+
         if (newPromo.background) {
             const backgroundUrl = URL.createObjectURL(newPromo.background); // Crie um URL para o arquivo
             const promoToAdd = { ...newPromo, background: backgroundUrl };
             onAddPromo(promoToAdd); // Chame a função passada por props
         }
 
-        // Limpe o formulário
+        // Limpa o form
         setNewPromo({
             incluso: '',
             destino: '',
             preco: '',
-            background: null
+            background: ''
         });
+    }
+
+    const getOffers = async () => {
+        // GET -> busca as informações das ofertas cadastradas no db.json
+        const response = await fetch('http://localhost:3005/promoCards')
+        const data = await response.json();
+        setNewPromo(data);
     }
 
     return (

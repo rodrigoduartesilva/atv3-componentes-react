@@ -6,6 +6,7 @@ const NavList = () => {
             <li className='header__ul--li'><a href='#'>Blog</a></li>
             <li className='header__ul--li'><a href='#'>Pacotes de viagem</a></li>
             <li className='header__ul--li'><a href='#contact'>Contato</a></li>
+            <li className='header__ul--li'><a href='#'>Cadastro de Ofertas</a></li>
         </ul>
     )
 }

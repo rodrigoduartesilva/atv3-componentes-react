@@ -11,7 +11,7 @@
 .header__ul--li a {
     text-decoration: none;
     color:#F5F5F5;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     transition: 1.5s all;
 
     &:hover {
