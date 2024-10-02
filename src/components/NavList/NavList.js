@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../NavList/NavList.css';
 
 const NavList = () => {
@@ -5,8 +6,8 @@ const NavList = () => {
         <ul className='header__ul'>
             <li className='header__ul--li'><a href='#'>Blog</a></li>
             <li className='header__ul--li'><a href='#'>Pacotes de viagem</a></li>
-            <li className='header__ul--li'><a href='#contact'>Contato</a></li>
-            <li className='header__ul--li'><a href='#'>Cadastro de Ofertas</a></li>
+            <li className='header__ul--li'><Link to={'contato'}>Contato</Link></li>
+            <li className='header__ul--li'><Link to={'cadastro'}>Cadastro de Ofertas</Link></li>
         </ul>
     )
 }

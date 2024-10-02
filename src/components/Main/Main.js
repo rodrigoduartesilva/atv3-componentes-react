@@ -1,9 +1,9 @@
 import CardOffers from '../CardOffers/CardOffers';
 import CategoriaBanner from '../CategoriaBanner/CategoriaBanner';
-import ContactForm from '../ContactForm/ContactForm';
 import FirstBunner from '../FirstBunner/FirstBunner';
 import LastBunner from '../LastBunner/LastBunner';
 import '../Main/Main.css';
+import PopPlaces from '../PopPlaces/PopPlaces';
 
 const Main = () => {
     return (
@@ -11,7 +11,7 @@ const Main = () => {
             <FirstBunner />
             <CardOffers />
             <CategoriaBanner />
-            <ContactForm />
+            <PopPlaces />
             <LastBunner />
         </main>
     )

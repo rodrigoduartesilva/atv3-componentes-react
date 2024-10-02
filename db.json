@@ -1,32 +1,113 @@
 {
   "promoCards": [
     {
-      "id": 0,
+      "id": "0",
       "incluso": "HOTEL+AÉREO",
       "destino": "Japão",
       "preco": 4000,
       "background": "require('../assets/cards/jap-promo-card-bcg.png')"
     },
     {
-      "id": 1,
+      "id": "1",
       "incluso": "HOTEL+AÉREO",
       "destino": "San Andreas",
       "preco": 3000,
       "background": "require('../assets/cards/sandreas-promo-card-bcg.png')"
     },
     {
-      "id": 2,
+      "id": "2",
       "incluso": "HOTEL+AÉREO",
       "destino": "Paraíba",
       "preco": 1200,
       "background": "require('../assets/cards/paraiba-promo-card-bcg.png')"
     },
     {
-      "id": 3,
+      "id": "3",
       "incluso": "HOTEL+AÉREO",
       "destino": "Manaus",
       "preco": 1600,
       "background": "require('../assets/cards/manaus-promo-card-bcg.png')"
+    },
+    {
+      "0": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Japão",
+        "preco": 4000,
+        "background": "/static/media/jap-promo-card-bcg.1c630943f889d406e6db.png"
+      },
+      "1": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "San Andreas",
+        "preco": 3000,
+        "background": "/static/media/sandreas-promo-card-bcg.b87a70618bcdfdf869b6.png"
+      },
+      "2": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Paraíba",
+        "preco": 1200,
+        "background": "/static/media/paraiba-promo-card-bcg.4cb439b4c15e4f6cb131.png"
+      },
+      "3": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Manaus",
+        "preco": 1600,
+        "background": "/static/media/manaus-promo-card-bcg.6458a58903e65158b708.png"
+      },
+      "id": "3f04"
+    },
+    {
+      "0": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Japão",
+        "preco": 4000,
+        "background": "/static/media/jap-promo-card-bcg.1c630943f889d406e6db.png"
+      },
+      "1": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "San Andreas",
+        "preco": 3000,
+        "background": "/static/media/sandreas-promo-card-bcg.b87a70618bcdfdf869b6.png"
+      },
+      "2": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Paraíba",
+        "preco": 1200,
+        "background": "/static/media/paraiba-promo-card-bcg.4cb439b4c15e4f6cb131.png"
+      },
+      "3": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Manaus",
+        "preco": 1600,
+        "background": "/static/media/manaus-promo-card-bcg.6458a58903e65158b708.png"
+      },
+      "id": "ff4a"
+    },
+    {
+      "0": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Japão",
+        "preco": 4000,
+        "background": "/static/media/jap-promo-card-bcg.1c630943f889d406e6db.png"
+      },
+      "1": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "San Andreas",
+        "preco": 3000,
+        "background": "/static/media/sandreas-promo-card-bcg.b87a70618bcdfdf869b6.png"
+      },
+      "2": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Paraíba",
+        "preco": 1200,
+        "background": "/static/media/paraiba-promo-card-bcg.4cb439b4c15e4f6cb131.png"
+      },
+      "3": {
+        "incluso": "HOTEL+AÉREO",
+        "destino": "Manaus",
+        "preco": 1600,
+        "background": "/static/media/manaus-promo-card-bcg.6458a58903e65158b708.png"
+      },
+      "id": "451b"
     }
   ]
 }

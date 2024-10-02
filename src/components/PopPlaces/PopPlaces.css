@@ -1,0 +1,29 @@
+.popplaces__container__main--card{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.popplaces__container__main__card--unit {
+    width: 500px;
+}
+
+.popplaces__container__img {
+    width: 500px;
+}
+
+.popplaces__container__main__card--unit h4 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.popplaces__container--paragraph {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
