@@ -2,6 +2,7 @@ import Button from '../Button/Button';
 import '../PopPlaces/PopPlaces.css';
 import React from 'react';
 import osaka from '../../assets/imgs/Osaka.jpg';
+import tokyo from '../../assets/imgs/Tokyo.jpg';
 
 const PopPlaces = () => {
     return (
@@ -13,7 +14,7 @@ const PopPlaces = () => {
             <div className='popplaces__container__main--card'>
                 <div className='popplaces__container__main__card--unit'>
                     <picture>
-                        <img className='popplaces__container__img' src={osaka} alt='Osaka' />
+                        <img className='popplaces__container__img' src={tokyo} alt='Osaka' />
                     </picture>
                     <h4>Tokyo</h4>
                     <p className='popplaces__container--paragraph'>
