@@ -3,6 +3,7 @@ import CategoriaBanner from '../CategoriaBanner/CategoriaBanner';
 import FirstBunner from '../FirstBunner/FirstBunner';
 import LastBunner from '../LastBunner/LastBunner';
 import '../Main/Main.css';
+import PayConditions from '../PayConditions/PayConditions';
 import PopPlaces from '../PopPlaces/PopPlaces';
 
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
             <CardOffers />
             <CategoriaBanner />
             <PopPlaces />
+            <PayConditions />
             <LastBunner />
         </main>
     )

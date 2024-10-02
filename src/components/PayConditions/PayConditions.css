@@ -1,0 +1,10 @@
+
+.payConditions__container--cards{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 384px;
+    height: 254px;
+}
