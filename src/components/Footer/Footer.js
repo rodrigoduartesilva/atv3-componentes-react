@@ -12,7 +12,7 @@ const Footer = () => {
                     <img src={logoFooter} alt='Logo Jornada' />
                 </figure>
                 <p className='footer__left--paragraph'>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
-                <p className='footer__left--paragraph'>Desenvolvido por Rodrigo Duarte. Projeto fictício sem fins comerciais.</p>
+                <p className='footer__left--paragraph'>Desenvolvido por Rodrigo Duarte.</p>
             </section>
             <section className='footer__right'>
                 <p className='footer__right--paragraph'>Acesse nossas redes:</p>
