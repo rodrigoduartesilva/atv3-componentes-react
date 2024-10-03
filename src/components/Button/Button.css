@@ -13,9 +13,9 @@ button {
     transition: 1.5s all;
 
     &:hover {
-        background-color: #8a2121;
-        border: 1px solid #B81515;
-        color: #F5F5F5;
+        background-color: #6b1010;
+        border: 1px solid #6b1010;
+        color: #a19999;
         cursor: pointer;
         transition: 1s all;
     }

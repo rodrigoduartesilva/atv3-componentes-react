@@ -20,6 +20,6 @@
     }
 
     &:active, &:focus{
-        border-bottom: 2px solid white;
+        border-bottom: 1px solid #9c9898;
     }
 }

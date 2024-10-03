@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home';
 import ContactForm from './components/ContactForm/ContactForm';
@@ -10,7 +10,6 @@ import PacotesViagem from './pages/PacotesViagem/PacotesViagem';
 import NotFound from './pages/NotFound/NotFound';
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
