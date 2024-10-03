@@ -1,5 +1,6 @@
 import CardOffers from '../CardOffers/CardOffers';
 import CategoriaBanner from '../CategoriaBanner/CategoriaBanner';
+import Depoimentos from '../Depoimentos/Depoimentos';
 import FirstBunner from '../FirstBunner/FirstBunner';
 import LastBunner from '../LastBunner/LastBunner';
 import '../Main/Main.css';
@@ -14,6 +15,7 @@ const Main = () => {
             <CategoriaBanner />
             <PopPlaces />
             <PayConditions />
+            <Depoimentos />
             <LastBunner />
         </main>
     )

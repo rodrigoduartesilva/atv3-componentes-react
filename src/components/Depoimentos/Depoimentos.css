@@ -1,0 +1,60 @@
+.depoimentos__container {
+    margin: 112px  auto;
+}
+
+.depoimentos__container--cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.depoimentos__container--card {
+    width: 340px;
+    height: 206px;
+}
+
+.depoimentos__container--card p{
+    font-size: 1rem;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.depoimentos__container__card--profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+
+.depoimentos__container__card--avatar {
+    border: 1.5px solid #B81515;
+    border-radius: 50%;
+}
+
+.depoimentos__container__card__profile--status {
+    margin-top: 8px;
+}
+
+.depoimentos__container__card__profile--status h5 {
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.depoimentos__container__card__profile__stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.depoimentos__container__card__profile__stars img {
+    cursor: pointer;
+    transition: .5s all;
+
+    &:hover {
+        transform: scale(1.3);
+        transition: .5s all;
+    }
+}
