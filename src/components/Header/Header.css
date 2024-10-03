@@ -9,4 +9,10 @@
 .header__container--logo img{
     width: 260px;
     height: 64px;
+    transition: 1s all;
+
+    &:hover {
+        transform: scale(0.96);
+        transition: 1s all;
+    }
 }
