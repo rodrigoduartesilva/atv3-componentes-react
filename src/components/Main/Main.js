@@ -6,6 +6,7 @@ import LastBunner from '../LastBunner/LastBunner';
 import '../Main/Main.css';
 import PayConditions from '../PayConditions/PayConditions';
 import PopPlaces from '../PopPlaces/PopPlaces';
+import WhatsappContactPage from '../WhatsappContactPage/WhatsappContactPage';
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
             <PayConditions />
             <Depoimentos />
             <LastBunner />
+            <WhatsappContactPage />
         </main>
     )
 }
