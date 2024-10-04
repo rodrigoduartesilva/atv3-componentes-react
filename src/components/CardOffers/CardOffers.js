@@ -3,7 +3,6 @@ import '../CardOffers/CardOffers.css';
 import { promoCards } from '../../funcoes/promoCards.js';
 import CadastroDeOfertas from '../../pages/CadastroDeOfertas/CadastroDeOfertas.js';
 import Card from '../Card/Card.js';
-import CardRender from '../CardRender/CardRender.js';
 
 const CardOffers = () => {
     const [promoCardsState, setPromoCardsState] = useState(promoCards);
@@ -24,7 +23,7 @@ const CardOffers = () => {
                 </ul>
             </section>
             {/* Adiciona o componente CadastroDeOfertas e passa a função addPromoCard como props */}
-            {/*<CadastroDeOfertas onAddPromo={addPromoCard} />*/}
+            <CadastroDeOfertas onAddPromo={addPromoCard} />
         </>
     )
 }

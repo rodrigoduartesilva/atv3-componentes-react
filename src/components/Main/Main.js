@@ -1,4 +1,4 @@
-import CardOffers from '../CardOffers/CardOffers';
+import CardRender from '../CardRender/CardRender';
 import CategoriaBanner from '../CategoriaBanner/CategoriaBanner';
 import Depoimentos from '../Depoimentos/Depoimentos';
 import FirstBunner from '../FirstBunner/FirstBunner';
@@ -12,7 +12,7 @@ const Main = () => {
     return (
         <main className='main__container'>
             <FirstBunner />
-            <CardOffers />
+            <CardRender />
             <CategoriaBanner />
             <PopPlaces />
             <PayConditions />

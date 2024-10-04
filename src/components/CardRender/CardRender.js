@@ -1,8 +1,11 @@
+import { promoCards } from '../../funcoes/promoCards.js';
 import Card from '../Card/Card';
 import '../CardRender/CardRender.css';
-import React from 'react';
+import React, { useState } from 'react';
 
-const CardRender = (promoCardsState) => {
+const CardRender = () => {
+    const [promoCardsState, setPromoCardsState] = useState(promoCards);
+
     return (
         <section className='container'>
             <h2 className='container__subtitle'>Ofertas da semana</h2>
