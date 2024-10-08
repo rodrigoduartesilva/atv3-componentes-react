@@ -23,7 +23,7 @@ const CardOffers = () => {
                 </ul>
             </section>
             {/* Adiciona o componente CadastroDeOfertas e passa a função addPromoCard como props */}
-            <CadastroDeOfertas onAddPromo={addPromoCard} />
+            <CadastroDeOfertas state={promoCardsState} onAddPromo={addPromoCard} />
         </>
     )
 }
